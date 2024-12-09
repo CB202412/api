@@ -16,6 +16,10 @@ app.get('/students',(req,res)=>{
     res.send(data)
 })
 
+app.get('/sleiman',(req,res)=>{   
+    res.send("Bla Bla Bla")
+})
+
 app.listen(PORT, () => {
   console.log(`server started on port ${PORT}`);
 });
